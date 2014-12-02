@@ -1,0 +1,30 @@
+{
+  "name": "geojson-strip",
+  "version": "1.0.0",
+  "description": "Replaces the properties object of all features with an empty {}",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bertspaan/geojson-strip.git"
+  },
+  "bin": {
+    "geojson-strip": "index.js"
+  },
+  "keywords": [
+    "geojson"
+  ],
+  "author": "Bert Spaan",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/bertspaan/geojson-strip/issues"
+  },
+  "homepage": "https://github.com/bertspaan/geojson-strip",
+  "dependencies": {
+    "JSONStream": "~0.10.0",
+    "event-stream": "~3.1.7",
+    "optimist": "0.3"
+  }
+}
